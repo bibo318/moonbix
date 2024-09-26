@@ -12,24 +12,24 @@ Moonbix là ứng dụng khai thác web telegram trên telegram
   
 ## Tính năng BOT
 
--🤖 Tự động đăng ký
--🪙 Chơi tự động
--🎖️ Tự động hoàn thành nhiệm vụ
+- 🤖 Tự động đăng ký
+- 🪙 Chơi tự động
+- 🎖️ Tự động hoàn thành nhiệm vụ
 
 ## Đăng ký tài khoản Moonbix
 
--Đăng ký Moonbix trên [telegram](https://t.me/Binance_Moonbix_bot)
--Khởi động bot`/start`
--Khởi chạy Moonbix
+- Đăng ký Moonbix trên [telegram](https://t.me/Binance_Moonbix_bot)
+- Khởi động bot`/start`
+- Khởi chạy Moonbix
 
 ## Thiết lập và chạy
--sao chép dự án `git clone https://github.com/bibo318/moonbix-claimer.git`
--chạy `cd moonbix-claimer`.
--chạy `npm install`.
--đổi tên tệp `account_example.json` thành `account.json`
--điền tài khoản của bạn vào `account.json`
--Để định cấu hình Proxy, hãy chỉnh sửa `proxy.text` và điền vào proxy của bạn bằng định dạng được cung cấp (hiện tại nó chỉ hỗ trợ proxy HTTPS)
--chạy `npm chạy start`
+- sao chép dự án `git clone https://github.com/bibo318/moonbix-claimer.git`
+- chạy `cd moonbix-claimer`.
+- chạy `npm install`.
+- đổi tên tệp `account_example.json` thành `account.json`
+- điền tài khoản của bạn vào `account.json`
+- Để định cấu hình Proxy, hãy chỉnh sửa `proxy.text` và điền vào proxy của bạn bằng định dạng được cung cấp (hiện tại nó chỉ hỗ trợ proxy HTTPS)
+- chạy `npm chạy start`
 
 ## Khắc phục sự cố truy vấn
 nếu bot của bạn gặp lỗi, với một số mã lỗi `401`, điều đó có nghĩa là truy vấn của bạn đã hết hạn, hãy lấy truy vấn mới và chạy lại bot.
@@ -38,10 +38,10 @@ nếu bot của bạn gặp lỗi, với một số mã lỗi `401`, điều đ�
 
 ## Cách cập nhật
 
--chạy `git pull` hoặc `git stash && git pull`
--chạy `npm update`
--đọc phần Thiết lập và chạy lại nếu thêm bước mới
--chạy lại bot `npm run start`
+- chạy `git pull` hoặc `git stash && git pull`
+- chạy `npm update`
+- đọc phần Thiết lập và chạy lại nếu thêm bước mới
+- chạy lại bot `npm run start`
 
 ## Ủng hộ
 
