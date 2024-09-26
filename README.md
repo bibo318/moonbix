@@ -1,54 +1,51 @@
-# MOONBIX CLAIMER BOT
+# BOT MOONBIX
 
-Moonbix is telegram web app mining on telegram
+Moonbix là ứng dụng khai thác web telegram trên telegram
 
 ![Moonbix Bot](./src/assets/moonbix-banner.jpg)
 
-## Prerequisite
+## Điều kiện tiên quyết
 
-- Node JS (v14)
-- Git
-- [Moonbix](https://t.me/Binance_Moonbix_bot/start?startApp=ref_749493015&startapp=ref_749493015)
+-Nút JS (v14)
+-Git
+-[Moonbix](https://t.me/Binance_Moonbix_bot)
   
-## BOT Feature
+## Tính năng BOT
 
-- 🤖 Auto Check In
-- 🪙 Auto Play Ticket
-- 🎖️ Auto Complete missions
+-🤖 Tự động đăng ký
+-🪙 Chơi tự động
+-🎖️ Tự động hoàn thành nhiệm vụ
 
-## Register Moonbix Account
+## Đăng ký tài khoản Moonbix
 
-- Register Moonbix on [telegram](https://t.me/Binance_Moonbix_bot/start?startApp=ref_749493015&startapp=ref_749493015)
-- Start bot `/start`
-- Launch Moonbix
+-Đăng ký Moonbix trên [telegram](https://t.me/Binance_Moonbix_bot)
+-Khởi động bot`/start`
+-Khởi chạy Moonbix
 
-## Set Up And Run
+## Thiết lập và chạy
+-sao chép dự án `git clone https://github.com/bibo318/moonbix-claimer.git`
+-chạy `cd moonbix-claimer`.
+-chạy `npm install`.
+-đổi tên tệp `account_example.json` thành `account.json`
+-điền tài khoản của bạn vào `account.json`
+-Để định cấu hình Proxy, hãy chỉnh sửa `proxy.text` và điền vào proxy của bạn bằng định dạng được cung cấp (hiện tại nó chỉ hỗ trợ proxy HTTPS)
+-chạy `npm chạy start`
 
-- clone the project `git clone https://github.com/DemonGod/moonbix-claimer.git`
-- run `cd moonbix-claimer`.
-- run `npm install`.
-- rename file `account_example.json` to `account.json`
-- fill up your account in `account.json`
-- To Configure Proxy, edit `proxy.text` and fill up your proxy using provided format (it currently support only HTTPS proxy)
-- run `npm run start`
+## Khắc phục sự cố truy vấn
+nếu bot của bạn gặp lỗi, với một số mã lỗi `401`, điều đó có nghĩa là truy vấn của bạn đã hết hạn, hãy lấy truy vấn mới và chạy lại bot.
 
-## Query Troubleshoot
+**Lưu ý: Bạn cần sử dụng VPN như [1.1.1.1](https://one.one.one.one/) để chạy Ứng dụng này**
 
-if your bot get eror, with some error code `401` it mean your query expired, go get new query and run bot again.
+## Cách cập nhật
 
-**Note: You need using VPN like [1.1.1.1](https://one.one.one.one/) to run this App**
+-chạy `git pull` hoặc `git stash && git pull`
+-chạy `npm update`
+-đọc phần Thiết lập và chạy lại nếu thêm bước mới
+-chạy lại bot `npm run start`
 
-## How To Update
+## Ủng hộ
 
-- run `git pull` or `git stash && git pull`
-- run `npm update`
-- read Setup and run again if any new step added
-- run the bot again `npm run start`
+Để hỗ trợ tôi vui lòng cho tôi ⭐ trong kho github này. Cảm ơn🔥
 
-## Support
-
-To support me please give me ⭐ in this github repository. Thank you semoga pada JP 🔥
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📜 Giấy phép 📜
+Dự án này được cấp phép theo Giấy phép MIT -xem tệp [LICENSE](LICENSE) để biết chi tiết.
