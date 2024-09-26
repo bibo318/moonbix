@@ -6,9 +6,9 @@ Moonbix là ứng dụng khai thác web telegram trên telegram
 
 ## Điều kiện tiên quyết
 
--Nút JS (v14)
--Git
--[Moonbix](https://t.me/Binance_Moonbix_bot)
+- node JS (v14)
+- Git
+- [Moonbix](https://t.me/Binance_Moonbix_bot)
   
 ## Tính năng BOT
 
